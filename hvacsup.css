@@ -1,0 +1,260 @@
+.bgimg{
+    background-image: url(img/Site-Supervisor-Licence-Course_Queensland-1000x480-1.jpg);
+    min-height: 400px;
+}
+
+.logo,.ul{
+    display: flex;
+    justify-content: center;
+}
+
+.logo>span{
+    padding: 19px 20px 16px 20px;
+    border-radius: 50%;
+}
+
+.ul1{
+    display: block;
+    border-bottom: 3px solid black;
+    padding: 0 0 4px;
+    width: 115px;
+}
+
+.head>a>h1{
+    text-align: center;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #D21B1B 34%, #861B36 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #444649;
+    font-family: "Tahoma", Sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.head>p{
+    text-align: center;
+}
+
+.content h3{
+    text-align: center;
+    font-size: 24px;
+}
+
+.center{
+    text-align: center;
+}
+
+.content>h3>a{
+    color: #007D08;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.78);
+}
+
+.center{
+    text-align: center;
+}
+
+.col-sm-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    border: 3px solid #a73f3f;
+}
+
+.box{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEE3AF5C;
+    padding: 60px 50px;
+}
+
+.cbox{
+    text-align: center;
+}
+
+.cbox h2{
+    margin: 20px 0 10px 0;
+    color: #132c47;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.box i{
+    color: #00d8d8;
+    font-size: 40px;
+}
+
+ul>li>a{
+    font-weight: 600;
+    margin: 0px 20px 0px 0px;
+    padding: 16px 51px;
+}
+
+ul>li:first-child>a{
+    background-color: #00d8d8;
+    color: #fff;
+}
+
+ul>li:last-child>a{
+    background-color: #4E56D4F0;
+    color: #f2f2f2;
+}
+
+.bgimg1{
+    background-image: url(img/shutterstock_247925119.jpg);
+    min-height: 169px;
+}
+
+.tab{
+    display: flex;
+    justify-content: center;
+}
+
+.tab>li{
+    margin: 35px 0 0 0;
+}
+
+.div{
+    display: flex;
+}
+
+.div1{
+    width: 35.5%;
+    display: flex;
+    align-items: center;
+}
+
+.div2{
+    width: 64.5%;
+    padding: 10px;
+}
+
+.accordion-button>span{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.accordion-button:not(.collapsed){
+    color: #2B7FC9 !important;
+}
+
+.accordion-button:not(.collapsed)::after{
+    --bs-accordion-btn-icon-width: 2rem;
+    left: 0;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%232B7FC9'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-button.collapsed {
+    color: #F92D00 !important;
+}
+
+.accordion-button.collapsed::after {
+    --bs-accordion-btn-icon-width: 2rem;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F92D00'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.div2>div>h2{
+    color: #13B6BF;
+    font-family: "Roboto Slab";
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.form{
+    padding: 57px 0 21px 20px;
+    border: 2px black solid;
+}
+
+#institutes, #organizations{
+    color: #8a8d91;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #0A0A0A;
+    box-shadow: 13px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+    width: 50%;
+}
+
+button>span{
+    font-size: 29px;
+}
+
+#institutes,
+.div2>div>button:hover{
+    color: #0a1724;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FFEAEA 0%, #F7668A 100%);
+}
+
+.inp{
+    width: 100%;
+}
+
+.inp:hover{
+    border: 1px #17a8e3 solid;
+    background: #e8e8e8;
+}
+
+#organization{
+    display: none;
+}
+
+@media (min-width: 1024px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(calc(100%/3));
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100%/3));
+  }
+
+}
+
+@media (max-width: 1023px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(calc(100%/2));
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100%/2));
+  }
+
+}
+
+@media (max-width: 767px) {
+    
+    .tab{
+        display: block;
+    }
+
+    .div{
+        display: block;
+    }
+
+    .div1, .div2{
+        width: 100%;
+    }
+}
+  
+.slider3 .carousel-inner .carousel-item-end,
+.slider3 .carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}

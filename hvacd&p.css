@@ -1,0 +1,127 @@
+.bgimg{
+    background-image: url(img/spbanner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 504px;
+    width: 100%;
+}
+
+.head>h1>a{
+    color: #7d0000;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.content>h2>a{
+    color: #E32B2B;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+p{
+    text-align: justify;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.col-sm-4{
+    align-content: flex-end;
+}
+
+figcaption{
+    font-size: 15px;
+}
+
+.psvg{
+    position: relative;
+}
+
+.svg{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    z-index: -1;
+}
+
+p>a>strong{
+    color: #337ab7;
+}
+
+h3>a{
+    color: #A81A00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.inp{
+    width: 100%;
+}
+
+.inp:hover{
+    border: 1px #17a8e3 solid;
+    background: #e8e8e8;
+}
+
+@media (min-width: 1025px) {
+    
+    .bgimg{
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 1024px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(calc(100%/3));
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100%/3));
+  }
+
+}
+
+@media (max-width: 1023px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(calc(100%/2));
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100%/2));
+  }
+
+  .btn{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(100%);
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(-100%);
+  }
+
+}
+  
+.slider3 .carousel-inner .carousel-item-end,
+.slider3 .carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}

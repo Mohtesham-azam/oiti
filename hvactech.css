@@ -1,0 +1,73 @@
+.form{
+    border: 2px black solid;
+    margin: 0;
+    padding: 10px;
+}
+
+.inp{
+    width: 100%;
+}
+
+.inp:hover{
+    border: 1px #17a8e3 solid;
+    background: #e8e8e8;
+}
+
+.carousel-inner .carousel-item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+  height: 426px;
+}
+
+.col-sm-6>div>h2{
+    color: #151718;
+    font-family: "Roboto", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.col-sm-6>div>p,
+.col-sm-6>div>ol>li{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.form1{
+    margin: 0;
+    padding: 10px;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.2, 1.2);
+  }
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > img {
+        height: 134px;
+    }
+}
+
+@media (min-width: 1024px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(calc(100%/6));
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100%/6));
+  }
+
+}
+  
+.slider3 .carousel-inner .carousel-item-end,
+.slider3 .carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}

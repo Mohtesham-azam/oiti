@@ -1,0 +1,120 @@
+.bgimg{
+    background-image: url(img/refrigeration-and-air-conditioning.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 512px;
+}
+
+.head>h1{
+    color: #ba2408;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+p{
+    text-align: justify;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.text-center>p{
+    text-align: center;
+}
+
+.content a{
+    color: #337ab7;
+}
+
+.content>h2{
+    color: #111313;
+    font-family: "Roboto", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.col-sm-4{
+    width: 100%;
+}
+
+.img{
+    height: 100%;
+    align-content: flex-end;
+}
+
+.img a{
+    margin: 0 15%;
+}
+
+.img1 a{
+    margin: 0 25%;
+}
+
+.img2 a{
+    margin: 0 5%;
+}
+
+form{
+    margin: 0;
+}
+
+.inp{
+    width: 100%;
+}
+
+.inp:hover{
+    border: 1px #17a8e3 solid;
+    background: #e8e8e8;
+}
+
+@media (min-width: 1024px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(calc(100%/3));
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100%/3));
+  }
+
+}
+
+@media (max-width: 1023px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(calc(100%/2));
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100%/2));
+  }
+
+  .btn{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(100%);
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(-100%);
+  }
+
+}
+  
+.slider3 .carousel-inner .carousel-item-end,
+.slider3 .carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}

@@ -1,0 +1,201 @@
+.bgimg{
+    background-image: url(img/4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 370px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo>span{
+    padding: 35px 39px;
+    border-radius: 50%;
+}
+
+.head>h1{
+    text-align: center;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #CB0000 51%, #0D0B0C 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Alata", Sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.head>p{
+    text-align: justify;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14.1px;
+    font-weight: 400;
+}
+
+.content h2{
+    text-align: center;
+    color: #690202;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.content p{
+    text-align: justify;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.content>.row>.col-sm-6{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.content>.row>.col-sm-6 img{
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.elementor-shape-fill{
+    fill: rgb(235 187 37);
+    transform-origin: center;
+    transform: rotateY(0deg);
+}
+
+.sv{
+    margin-top: -50px;   
+}
+
+.svg{
+    transform: rotate(180deg);
+}
+
+.svg>svg{
+    height: 61px;
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.svg1>svg{
+    height: 43px;
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -1px;
+}
+
+.container-fluid>.container>h2{
+    color: #17475B;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    font-size: 39px;
+}
+
+.container-fluid>.container>p{
+    text-align: justify;
+    color: #242222;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9em
+}
+
+.fade{
+    display: inline-block;
+    animation-name: fadeIn;
+    animation-duration: 1.25s;
+    animation-timing-function: ease-in-out;
+    visibility: visible !important;
+    animation-iteration-count: 100;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.svg2>svg{
+    width: calc(290% + 1.3px);
+    height: 199px;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.svg2{
+    top: -1px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+
+.svg3>svg{
+    width: calc(270% + 1.3px);
+    height: 217px;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.svg3{
+    transform: rotate(180deg);
+    bottom: -1px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    z-index: -1;
+}
+
+form{
+    border: 2px black solid;
+    margin: 30px;
+}
+
+.inp{
+    width: 100%;
+}
+
+.inp:hover{
+    border: 1px #17a8e3 solid;
+    background: #e8e8e8;
+}
+
+@media (min-width: 1024px) {
+
+  .slider-item3>div{
+    width: 20%;
+  }
+
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(0%);
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(-0%);
+  }
+
+}

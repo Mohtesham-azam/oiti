@@ -1,0 +1,163 @@
+.bgimg{
+    background-image: url(img/gjun_blog_autocad_1200x630.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 444px;
+}
+
+.head h1 a{
+    color: #0D516E;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 900;
+    text-shadow: 4px 0px 5px rgba(0, 0, 0, 0.3);
+    font-size: 36px;
+}
+
+.content h2>a, h3>a{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-size: 14px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.col-sm-4 h3{
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+ul>li{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.div1{
+    position: relative;
+}
+
+.svg1{
+    transform: rotate(180deg);
+    bottom: -1px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+
+.svg1>svg{
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.elementor-shape-fill{
+    transform-origin: center;
+    transform: rotateY(0deg);
+}
+
+.div1>.container{
+    padding: 10px 6%;
+}
+
+.div2{
+    position: relative;
+}
+
+.svg2{
+    top: -1px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+
+.svg2>svg{
+    width: calc(141% + 1.3px);
+    height: 155px;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.div2>.container{
+    padding: 10px 6%;
+}
+
+form{
+    margin: 0;
+}
+
+.inp{
+    width: 100%;
+}
+
+.inp:hover{
+    border: 1px #17a8e3 solid;
+    background: #e8e8e8;
+}
+
+@media (min-width: 1024px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(calc(100%/3));
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100%/3));
+  }
+
+}
+
+@media (max-width: 1023px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(calc(100%/2));
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100%/2));
+  }
+
+  .btn{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767px) {
+  
+  .slider3>.carousel-inner .carousel-item-end.active,
+  .slider3>.carousel-inner .carousel-item-next {
+    transform: translateX(100%);
+  }
+  
+  .slider3>.carousel-inner .carousel-item-start.active, 
+  .slider3>.carousel-inner .carousel-item-prev {
+    transform: translateX(-100%);
+  }
+
+}
+  
+.slider3 .carousel-inner .carousel-item-end,
+.slider3 .carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
