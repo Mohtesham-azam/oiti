@@ -137,7 +137,7 @@ class MyHeader extends HTMLElement{
                                     <li><a class="dropdown-item" href="#">Data Protection Policy</a></li>
                                     <li><a class="dropdown-item" href="#">Equality and Diversity Policy</a></li>
                                     <li><a href="" class="dropdown-item">Learning Enviroment Policy</a></li>
-                                    <li><a href="" class="dropdown-item">Studentd Complaint Policy</a></li>
+                                    <li><a href="" class="dropdown-item">Student Complaint Policy</a></li>
                                     <li><a href="" class="dropdown-item">Disciplinary Rule and Regulation</a></li>
                                 </ul>
                             </li>
